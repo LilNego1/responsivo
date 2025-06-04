@@ -57,6 +57,8 @@
         transform: translateY(0);
         opacity: 1;
         backdrop-filter: blur(10px);
+        height: 100vh;
+        
     }
     .menu-toggle:checked ~ .menu-icon .linha-menu-top{
         transform: translateY(9px) rotate(45deg);
