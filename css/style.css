@@ -49,3 +49,38 @@ main{
     width: 1.5rem;
     margin-right: 10px;
 }
+.navbar-desktop{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10%;
+    margin-top: 50px;
+
+
+}
+.navbar-mobile{
+    display: none;
+
+}
+
+.zap-flutuante{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #424242d5;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor:;
+    transition: all 0.3s ease;
+
+}
+
+.zap-flutuante:hover{
+    transform: translateX(5px)
+}
